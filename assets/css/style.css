@@ -1,0 +1,247 @@
+html,
+body {
+    font-family: "Titillium Web", sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    font-size: 14px;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+[class*="__container"] {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* -----------HEADER-------------- */
+.header {
+    padding: 50px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+}
+.menu {
+}
+.menu__nav {
+}
+.menu__list {
+    display: flex;
+}
+.menu__list > *:not(:last-child) {
+    margin-right: 5px;
+}
+.menu__item {
+    padding: 8px 50px;
+    border-radius: 50px;
+}
+.menu__item:hover {
+    background: #c9c9c9;
+}
+.menu__link {
+    color: #626262;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+/* ----------MAIN------------- */
+.main {
+}
+.main__minimo {
+}
+/* --------MINIMO---------- */
+.minimo {
+}
+.minimo__items {
+    text-align: center;
+    padding: 25px;
+}
+/* --------------PHOTO--------------- */
+.photo {
+}
+.photo__container {
+    min-height: 70px;
+}
+._container {
+}
+.title__logo {
+    margin-bottom: 10px;
+    color: #f6dc9b;
+    font-weight: 500;
+    font-size: 20px;
+}
+.titile {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+.title__text {
+    margin-bottom: 80px;
+    color: #626262;
+    font-weight: 400;
+    font-size: 20px;
+}
+.title__coment {
+    margin-bottom: 140px;
+    color: #f6dc9b;
+    font-weight: 500;
+    font-size: 25px;
+}
+/* --------------LEAVE------------------ */
+.leave {
+}
+.leave__container {
+    padding: 120px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.leave__column {
+    flex:0 1 40%;
+}
+.leave__item {
+    max-width: 420px;
+}
+.title__image {
+    margin-bottom: 20px;
+}
+.title__logoa {
+    margin-bottom: 20px;
+    color: #f6dc9b;
+    font-weight: 500;
+    font-size: 20px;
+}
+.title__texta {
+    margin-bottom: 30px;
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+}
+.title__texts {
+    margin-bottom: 140px;
+    color: #626262;
+    font-weight: 400;
+    font-size: 20px;
+}
+.sing {
+    background: #f0f0f0;
+    padding: 200px;
+}
+.sing__container {
+}
+.title__logotips {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #626262;
+}
+.sing__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-sing__input {
+    background: #f0f0f0;
+    border-bottom: 1px solid #000;
+    margin-right: 20px;
+}
+.sing__img {
+}
+/* -----------COLD--------------- */
+.cold {
+}
+.cold__container {
+    padding: 120px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.cold__body {
+    flex:0 1 40%;
+}
+.cold__imges {
+    margin-bottom: 30px;
+}
+.cold__logotipse {
+    margin-bottom: 20px;
+    color: #f6dc9b;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cold__title {
+    margin-bottom: 12px;
+    color: #626262;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.cold__title-text {
+    color: #626262;
+    font-weight: 400;
+    font-size: 20px;
+}
+.cold__images {
+    margin-bottom: 30px;
+}
+.cold__btn {
+    min-height: 60px;
+    min-width: 160px;
+    border-radius: 1px;
+    border: 2px solid #626262;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transform: translate(-130%, 0);
+}
+/* -----------FOOTER---------------- */
+.footer {
+    background: #fff;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu {
+}
+.menu {
+}
+.menu__navs {
+    margin: 0 auto;
+}
+.menu__lists {
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px;
+}
+.menu__list > *:not(:last-child) {
+    margin-right: 5px;
+}
+.menu__items {
+    padding: 8px 35px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.menu__items:not(:last-child) {
+    padding: 8px 35px;
+}
+.menu__links {
+    color: #626262;
+}
+.menu__items:hover {
+    background: rgb(202, 202, 202);
+}
